@@ -7,7 +7,7 @@ export default function Card({ item }) {
       <img src={item.largeImageURL} alt="" className="w-full" />
       <div className="px-6 py-4">
         <div className="font-bold text-purple-700 text-xl mb-2">
-          Photo by John Doe
+          Photo item.title 
         </div>
         <ul>
           <li>
