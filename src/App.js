@@ -11,7 +11,7 @@ function App() {
 
   useEffect(() => {
     fetch(
-      `https://pixabay.com/api/?key=${process.env.REACT_APP_PIXABAY_API_KEY}&q=${term}&image_type=photo&pretty=true`
+      `https://pixabay.com/api/?key=25836140-af2022faa18ae226581b4982b&q=${term}&image_type=photo&pretty=true`
     )
       .then((res) => res.json())
       .then((data) => {
